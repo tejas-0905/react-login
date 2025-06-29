@@ -1,14 +1,12 @@
 // src/App.js
 import React from "react";
-import LoginForm from "./components/LoginForm";
-import Background3D from "./components/Background3D";
+import UserForm from "./components/UserForm";
 
 function App() {
   return (
-    <>
-      <Background3D />
-      <LoginForm />
-    </>
+    <div>
+      <UserForm />
+    </div>
   );
 }
 
