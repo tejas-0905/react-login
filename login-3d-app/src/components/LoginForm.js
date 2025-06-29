@@ -5,6 +5,7 @@ import { auth } from "../firebase";
 import "../styles/Login.css";
 import { motion } from "framer-motion";
 
+
 const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -34,3 +35,4 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
+export { auth };
