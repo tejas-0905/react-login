@@ -27,3 +27,11 @@ react-login/
 ├── package.json
 ├── README.md
 └── .gitignore
+
+```bash
+git clone https://github.com/tejas-0905/react-login.git
+cd react-login
+npm install
+npm start
+```
+
