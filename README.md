@@ -19,6 +19,11 @@ Clone the repository:
 git clone https://github.com/tejas-0905/react-login.git
 cd react-login
 ```
+## Install dependencies
+```bash
+npm install
+```
+
 
 
 
