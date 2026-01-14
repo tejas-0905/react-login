@@ -38,7 +38,7 @@ const UserForm = () => {
           <option value="Female">Female</option>
           <option value="Other">Other</option>
         </select>
-        <button type="submit">Submit</button>
+        <button type="submit form">Submit</button>
       </form>
       <p>{msg}</p>
     </div>
