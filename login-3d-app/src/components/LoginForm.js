@@ -15,7 +15,7 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      setMsg("Login Successful ✅");
+      setMsg("Successful Login ✅");
     } catch (err) {
       setMsg("Login Failed ❌: " + err.message);
     }
